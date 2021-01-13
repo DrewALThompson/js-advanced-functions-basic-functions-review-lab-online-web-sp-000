@@ -29,9 +29,7 @@ let Calculator = {
 };
 
 function actionApplyer(integer, array){
-  if (array == []){
-    return integer;
-  } else {
-    
+  for(let i = 0; i < array.length; i++){
+    return integer
   }
 }
