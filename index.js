@@ -13,4 +13,6 @@ function wrapAdjective(string = '*'){
   }
 }
 
-let Caluctlator = {}
+let [add, subtract, multiply divide] = (function(){
+  
+})
