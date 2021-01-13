@@ -10,7 +10,7 @@ function mondayWork(activity = 'go to the office'){
 function wrapAdjective(string = '*'){
   return function(adj = 'special'){
     return `You are ${string+adj+string}!`;
-  }
+  };
 }
 
 let Calculator = {
@@ -25,5 +25,13 @@ let Calculator = {
   },
   divide: function(a, b){
    return a/b; 
+  }
+};
+
+function actionApplyer(integer, array){
+  if (array == []){
+    return integer;
+  } else {
+    
   }
 }
