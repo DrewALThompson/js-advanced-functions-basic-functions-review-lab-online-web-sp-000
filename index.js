@@ -8,7 +8,7 @@ function mondayWork(activity = 'go to the office'){
 }
 
 function wrapAdjective(adjective){
-  return `${initializer + " " + adjective + " " + initialier}`;
+  return `${adjective}`;
 }
 
 let Caluctlator = {}
