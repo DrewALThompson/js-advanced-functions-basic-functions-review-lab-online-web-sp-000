@@ -7,7 +7,7 @@ function mondayWork(activity = 'go to the office'){
   return `This Monday, I will ${activity}.`;
 }
 
-function wrapAdjective(initializer, adjective){
+function wrapAdjective(adjective){
   return `${initializer + " " + adjective + " " + initialier}`;
 }
 
