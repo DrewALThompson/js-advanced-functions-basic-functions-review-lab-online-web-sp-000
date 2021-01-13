@@ -13,6 +13,8 @@ function wrapAdjective(string = '*'){
   }
 }
 
-let [add, subtract, multiply divide] = (function(){
-  
-})
+let Calculator = {
+  add: function(){
+    
+  }
+}
