@@ -30,6 +30,7 @@ let Calculator = {
 
 function actionApplyer(integer, array){
   for(let i = 0; i < array.length; i++){
-    return integer = array[i](integer);
+    integer = array[i](integer);
   }
+  return integer;
 }
